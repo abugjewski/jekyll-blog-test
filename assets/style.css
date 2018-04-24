@@ -23,7 +23,7 @@ header {
 }
 
 main {
-  margin-left: 20rem;
+  padding: 1rem;
 }
 
 h1, h2, h3 {
@@ -31,10 +31,14 @@ h1, h2, h3 {
 }
 
 @media only screen and (min-width: 992px) {
-  header {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 20rem;
-}
+    header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20rem;
+  }
+  
+  main {
+    margin-left: 20rem;
+  }
 }

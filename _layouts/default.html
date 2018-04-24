@@ -12,6 +12,7 @@
       <ul class="posts-list">
         {% for post in site.posts %}
         <li>
+          <img src="{{ post.image }}">
           <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
           {{ post.excerpt }}
         </li>

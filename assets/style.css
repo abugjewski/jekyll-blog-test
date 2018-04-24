@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Nunito:400,400i,700&subset=latin-ext');
 
 :root {
+  --main-blue: #639AA2;
   --main-white: #FBFAF4;
   --main-black: #18191A;
 }
@@ -14,12 +15,13 @@
 body {
   box-sizing: border-box;
   background-color: var(--main-white);
+  color: var(--main-black);
   font-size: 100%;
   font-family: "Merriweather", "Georgia", serif;
 }
 
 header {
-  background-color: #639AA2;
+  background-color: var(--main-blue);
   height: 100vh;
   width: 100%;
 }
@@ -30,6 +32,11 @@ main {
 
 h1, h2, h3 {
   font-family: "Nunito", "Arial", sans-serif;
+}
+
+a, a:visited {
+  color: inherit;
+  text-decoration: 
 }
 
 .posts-list {

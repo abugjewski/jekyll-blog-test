@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Nunito:400,400i,700&subset=latin-ext');
 
+:root {
+  --main-white: #FBFAF4;
+}
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -8,6 +12,7 @@
 
 body {
   box-sizing: border-box;
+  background-color: var(--main-white);
   font-size: 100%;
   font-family: "Merriweather", "Georgia", serif;
 }

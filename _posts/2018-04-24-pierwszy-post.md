@@ -1,6 +1,6 @@
 ---
 title: Pierwszy Post
-layout: default
+layout: post
 date: 2018-04-24
 ---
 

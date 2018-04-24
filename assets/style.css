@@ -17,7 +17,7 @@ body {
   font-family: "Merriweather", "Georgia", serif;
 }
 
-aside {
+header {
   position: fixed;
   left: 0;
   top: 0;
@@ -31,4 +31,13 @@ main {
 
 h1, h2, h3 {
   font-family: "Nunito", "Arial", sans-serif;
+}
+
+@media only screen and (min-width: 992px) {
+  header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20rem;
+}
 }

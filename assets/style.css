@@ -59,7 +59,7 @@ a, a:visited {
 .post-description {
   flex: 3;
   padding: 1rem;
-  margin-left: 1rem;
+  margin: 1rem;
   border-left: 1px solid var(--main-black);
 }
 

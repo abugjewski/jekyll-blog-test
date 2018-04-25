@@ -48,14 +48,27 @@ a, a:visited {
   height: 20rem;
 }
 
-.featured-image img {
-  max-width: 100%;
-  height: auto;
+.featured-image {
   flex: 1;
 }
 
+.featured-image img {
+  max-width: 100%;
+  height: auto;
+}
+
 .post-description {
-	flex: 3;
+  flex: 3;
+  padding: 1rem;
+}
+
+.post-header {
+  height: 50vh;
+  background-color: var(--main-blue);
+}
+
+.post-content {
+  padding: 1rem;
 }
 
 @media only screen and (min-width: 992px) {
@@ -68,5 +81,10 @@ a, a:visited {
   
   main {
     margin-left: 20rem;
+  }
+
+  .post-content {
+    width: 960px;
+    margin: 0 auto;
   }
 }

@@ -4,10 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale:1.0">
     <link rel="stylesheet" href={{ "assets/style.css" | relative_url}}>
-    <title>{{ page.title }}</title>
+    <title>{{ site.title }} | {{ page.title }}</title>
   </head>
   <body>
-    Testtest
-    {{ content }}
+    <header class="post-header">
+      <h1>{{ page.title }}</h1>
+    </header>
+    <article class="post-content">
+      {{ content }}
+    </article>
   </body>
 </html>

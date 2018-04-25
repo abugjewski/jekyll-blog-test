@@ -45,12 +45,17 @@ a, a:visited {
 
 .posts-list li {
   display: flex;
-  height: 400px;
+  height: 20rem;
 }
 
 .featured-image img {
   max-width: 100%;
   height: auto;
+  flex: 1;
+}
+
+.post-description {
+	flex: 3;
 }
 
 @media only screen and (min-width: 992px) {

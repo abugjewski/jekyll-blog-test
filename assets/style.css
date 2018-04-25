@@ -45,7 +45,7 @@ a, a:visited {
 
 .posts-list li {
   display: flex;
-  height: 20rem;
+  height: 15rem;
 }
 
 .featured-image {
@@ -53,13 +53,14 @@ a, a:visited {
 }
 
 .featured-image img {
-  max-width: 100%;
-  height: auto;
+  max-height: 100%;
 }
 
 .post-description {
   flex: 3;
   padding: 1rem;
+  margin-left: 1rem;
+  border-left: 1px solid var(--main-black);
 }
 
 .post-header {

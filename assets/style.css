@@ -15,6 +15,7 @@
 body {
   box-sizing: border-box;
   background-color: var(--main-white);
+  line-height: 1.6;
   color: var(--main-black);
   font-size: 100%;
   font-family: "Merriweather", "Georgia", serif;
@@ -73,6 +74,17 @@ a, a:visited {
 
 .post-content {
   padding: 1rem;
+}
+
+.post-chooser {
+  height: 20rem;
+  background-color: var(--main-blue);
+  display: flex;
+}
+
+.post-prev, .post-next {
+  flex: 1;
+  border: 1px solid black;
 }
 
 @media only screen and (min-width: 992px) {

@@ -45,7 +45,7 @@ a, a:visited {
 
 .posts-list li {
   display: flex;
-  height: 20rem;
+  height: 15rem;
 }
 
 .featured-image {

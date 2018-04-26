@@ -1,5 +1,2 @@
 title: My Jekyll Website
 excerpt_separator: <!--more-->
-sass:
-  sass_dir: _sass
-  style: compact

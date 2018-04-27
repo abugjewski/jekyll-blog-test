@@ -1,7 +1,7 @@
 ---
 title: Drugi post
 layout: post
-date: 2018-04-24
+date: 2018-04-25
 image: /assets/img/gitpat.png
 ---
 

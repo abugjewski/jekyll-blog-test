@@ -1,7 +1,7 @@
 ---
 title: Trzeci post
 layout: post
-date: 2018-04-24
+date: 2018-04-26
 image: /assets/img/gitpat.png
 ---
 

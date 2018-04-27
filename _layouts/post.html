@@ -18,13 +18,13 @@
     <div class="post-chooser">
       <div class="post-prev">
         {% if page.previous.url %}
-          <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+          <a href="{{ page.previous.url | relative_url}}">{{ page.previous.title }}</a>
           <img src="{{ page.previous.image | relative_url }}">
         {% endif %}
       </div>
       <div class="post-next">
         {% if page.next.url %}
-          <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+          <a href="{{ page.next.url | relative_url}}">{{ page.next.title }}</a>
           <img src="{{ page.next.image | relative_url }}">
         {% endif %}
       </div>

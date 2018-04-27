@@ -23,7 +23,10 @@
         {% endif %}
       </div>
       <div class="post-next">
-
+        {% if page.next.url %}
+          <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+          <img src="{{ page.next.image | relative_url }}">
+        {% endif %}
       </div>
     </div>
     <footer>&copy; 2018 Adrian Bugajewski | Wszelkie prawa zastrzeżone</footer>

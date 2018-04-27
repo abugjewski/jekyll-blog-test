@@ -16,8 +16,15 @@
       <span class="test">testtest</span>
     </article>
     <div class="post-chooser">
-      <div class="post-prev"></div>
-      <div class="post-next"></div>
+      <div class="post-prev">
+        {% if post.previous.url %}
+          <a href="{{ post.previous.url }}">{{ post.previous.title }}</a>
+          <img src="{{ post.previous.image | relative_url }}">
+        {% endif %}
+      </div>
+      <div class="post-next">
+
+      </div>
     </div>
     <footer>&copy; 2018 Adrian Bugajewski | Wszelkie prawa zastrzeżone</footer>
   </body>

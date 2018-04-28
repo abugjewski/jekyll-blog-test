@@ -135,7 +135,7 @@ a, a:visited {
   object-fit: cover;
   height: 100%;
   width: 100%;
-  transition: opacity 1s;
+  transition: all 1s;
 }
 
 .post-prev a:hover + img, .post-next a:hover + img, {

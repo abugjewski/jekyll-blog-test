@@ -80,8 +80,9 @@ a, a:visited {
   opacity: 0;
   padding: 1rem;
   object-fit: cover;
-  border-radius: 0.5rem;
+  border-radius: 1.2rem;
   transition: opacity 1s;
+  background-color: red;
 }
 
 .post-description {
@@ -91,7 +92,7 @@ a, a:visited {
 }
 
 .post-description:hover + img {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .post-header {

@@ -125,6 +125,7 @@ a, a:visited {
   width: 100%;
   height: 100%;
   z-index: 1;
+  transition: opacity 1s;
 }
 
 .post-prev img, .post-next img{
@@ -135,7 +136,7 @@ a, a:visited {
   object-fit: cover;
   height: 100%;
   width: 100%;
-  transition: all 1s;
+  transition: opacity 1s;
 }
 
 .post-prev a:hover + img, .post-next a:hover + img, {

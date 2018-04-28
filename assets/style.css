@@ -101,6 +101,10 @@ a, a:visited {
   background-color: var(--main-blue);
 }
 
+.post-header h1 {
+  z-index: 1;
+}
+
 .post-header img{
   object-fit: cover;
   position: absolute;

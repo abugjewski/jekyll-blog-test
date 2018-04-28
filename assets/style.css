@@ -95,8 +95,23 @@ a, a:visited {
 }
 
 .post-prev, .post-next {
+  position: relative
   flex: 1;
   border: 1px solid black;
+}
+
+.post-prev a, .post-next a {
+  position: relative;
+  z-index: 1;
+}
+
+.post-prev img, .post-next img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 992px) {

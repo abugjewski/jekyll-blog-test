@@ -72,7 +72,6 @@ a, a:visited {
 
 .featured-image {
   flex: 1;
-  background-color: var(--main-blue);
 }
 
 .featured-image img {
@@ -138,10 +137,6 @@ a, a:visited {
   object-fit: cover;
   height: 100%;
   width: 100%;
-}
-
-.post-prev a + img {
-  transition: opacity 1s;
 }
 
 .post-prev a:hover + img, .post-next a:hover + img, {

@@ -124,7 +124,6 @@ a, a:visited {
 .post-prev, .post-next {
   position: relative;
   flex: 1;
-  border: 1px solid black;
 }
 
 .post-prev a, .post-next a {

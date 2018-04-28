@@ -139,7 +139,7 @@ a, a:visited {
   width: 100%;
 }
 
-.post-prev a:hover + img, .post-next a:hover + img, {
+.post-prev a:hover + img, .post-next a:hover + img {
   opacity: 1;
 }
 

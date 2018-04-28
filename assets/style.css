@@ -79,11 +79,17 @@ a, a:visited {
   height: 100%;
   opacity: 0.5;
   object-fit: cover;
+  transition: opacity 1s;
 }
 
 .post-description {
   position: relative;
   z-index: 1;
+  padding: 1rem;
+}
+
+.post-description:hover + img {
+  opacity: 1;
 }
 
 .post-header {

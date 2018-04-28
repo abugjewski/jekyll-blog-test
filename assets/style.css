@@ -91,7 +91,7 @@ a, a:visited {
 }
 
 .post-description:hover + img {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .post-header {

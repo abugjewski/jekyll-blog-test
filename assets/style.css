@@ -82,7 +82,6 @@ a, a:visited {
   object-fit: cover;
   border-radius: 1.2rem;
   transition: opacity 1s;
-  background-color: red;
 }
 
 .post-description {

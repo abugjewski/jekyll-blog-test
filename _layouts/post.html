@@ -26,7 +26,10 @@
       </div>
       <div class="post-next">
         {% if page.next.url %}
-          <a href="{{ page.next.url | relative_url}}">{{ page.next.title }}</a>
+          <a href="{{ page.next.url | relative_url}}">
+            Następny post
+            {{ page.next.title }}
+          </a>
           <img src="{{ page.next.image | relative_url }}">
         {% endif %}
       </div>

@@ -95,7 +95,7 @@ a, a:visited {
 }
 
 .post-prev, .post-next {
-  position: relative
+  position: relative;
   flex: 1;
   border: 1px solid black;
 }

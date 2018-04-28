@@ -33,7 +33,20 @@ footer {
 }
 
 h1, h2, h3 {
+  display: inline-block;
   font-family: "Nunito", "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.2rem;
 }
 
 a, a:visited {

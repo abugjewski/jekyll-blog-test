@@ -28,7 +28,7 @@
         {% if page.next.url %}
           <a href="{{ page.next.url | relative_url}}">
             Następny post
-            {{ page.next.title }}
+            <h2>{{ page.next.title }}</h2>
           </a>
           <img src="{{ page.next.image | relative_url }}">
         {% endif %}

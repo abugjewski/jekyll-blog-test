@@ -144,7 +144,13 @@ a, a:visited {
 
 .post-prev, .post-next {
   position: relative;
+  display: flex;
+  align-items: flex-end;
   flex: 1;
+}
+
+.post-next {
+  justify-content: flex-end;
 }
 
 .post-prev a, .post-next a {

@@ -1,6 +1,4 @@
 ---
-title: My Page
-layout: default
+title: Strona Główna
+layout: main
 ---
-
-# {{ page.title }}

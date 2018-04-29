@@ -118,9 +118,20 @@ a, a:visited {
   background-color: var(--main-blue);
 }
 
+.post-header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top, var(--main-white), transparent)
+}
+
 .post-header h1 {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .post-header img{
@@ -130,16 +141,6 @@ a, a:visited {
   left: 0;
   height: 100%;
   width: 100%;
-}
-
-.post-header img::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(to top, var(--main-white), transparent)
 }
 
 .post-content {

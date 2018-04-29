@@ -153,6 +153,7 @@ a, a:visited {
   flex-direction: column;
   justify-content: flex-end;
   width: 100%;
+  padding: 2rem;
   height: 100%;
   z-index: 1;
 }

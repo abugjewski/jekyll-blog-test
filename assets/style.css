@@ -170,11 +170,12 @@ a, a:visited {
   object-fit: cover;
   height: 100%;
   width: 100%;
-  transition: opacity 1s;
+  transition: opacity 1s; transform 1s;
 }
 
 .post-prev a:hover + img, .post-next a:hover + img {
   opacity: 1;
+  transform: scale(1.1);
 }
 
 @media only screen and (min-width: 992px) {
@@ -192,9 +193,5 @@ a, a:visited {
   .post-content {
     width: 960px;
     margin: 0 auto;
-  }
-
-  .post-chooser {
-    height: 20rem;
   }
 }

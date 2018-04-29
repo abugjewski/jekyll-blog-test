@@ -132,6 +132,15 @@ a, a:visited {
   width: 100%;
 }
 
+.post-header img::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top, var(--main-white), transparent)
+}
+
 .post-content {
   padding: 2rem 0;
 }

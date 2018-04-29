@@ -107,6 +107,14 @@ a, a:visited {
   opacity: 0.3;
 }
 
+.post-description h2 {
+  transition: color 1s;
+}
+
+.post-description h2:hover {
+  color: var(--main-blue);
+}
+
 .post-header {
   position: relative;
   width: 100%;
@@ -199,11 +207,11 @@ a, a:visited {
     position: fixed;
     left: 0;
     top: 0;
-    width: 20rem;
+    width: 25rem;
   }
   
   main {
-    margin-left: 20rem;
+    margin-left: 25rem;
   }
 
   .post-content {

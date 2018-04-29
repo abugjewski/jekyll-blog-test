@@ -144,22 +144,21 @@ a, a:visited {
 
 .post-prev, .post-next {
   position: relative;
-  display: flex;
-  align-items: flex-end;
   flex: 1;
-}
-
-.post-next {
-  justify-content: flex-end;
 }
 
 .post-prev a, .post-next a {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   width: 100%;
   height: 100%;
   z-index: 1;
+}
+
+.post-next a {
+  align-items: flex-end;
 }
 
 .post-prev img, .post-next img{

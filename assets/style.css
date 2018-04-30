@@ -115,6 +115,18 @@ a, a:visited {
   color: var(--main-blue);
 }
 
+.post-navigation {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.post-navigation img {
+  padding: 1rem;
+  background-color: red;
+  color: green;
+}
+
 .post-header {
   position: relative;
   width: 100%;

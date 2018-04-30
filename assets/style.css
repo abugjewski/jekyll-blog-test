@@ -119,13 +119,13 @@ a, a:visited {
   position: absolute;
   top: 1rem;
   left: 1rem;
+  z-index: 2;
 }
 
 .post-navigation img {
   padding: 1rem;
   background-color: red;
   color: green;
-  z-index: 2;
 }
 
 .post-header {

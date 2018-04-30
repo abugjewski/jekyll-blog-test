@@ -116,7 +116,7 @@ a, a:visited {
 }
 
 .post-navigation {
-  position: absolute;
+  position: fixed;
   top: 1rem;
   left: 1rem;
   z-index: 2;
@@ -124,8 +124,7 @@ a, a:visited {
 
 .post-navigation img {
   padding: 1rem;
-  background-color: red;
-  color: green;
+  border: 1px solid black;
 }
 
 .post-header {

@@ -125,6 +125,7 @@ a, a:visited {
   padding: 1rem;
   background-color: red;
   color: green;
+  z-index: 2;
 }
 
 .post-header {
